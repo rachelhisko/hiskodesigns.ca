@@ -4,11 +4,13 @@
 
 ![](me.jpg)
 
-Growing up, my father always had a camera in his hand. He captured everything — there are thousands of images from our lives.
+I always try to think outside the box. I challenge myself to consider many different perspectives then my own.
 
-I feel so lucky that I have these moments to look back on: pictures of my parents’ love, images of their happiness, and photos of their joy seeing their kids grow up.
+ I feel that when I think diversely, it will allow me to contribute something to the world that will help make a difference.
 
-I believe that capturing life stories and moments is so important, not only for you, but for those to whom you mean the most.
+I believe that I am put on this earth for a reason, that reason being to design interfaces that will better peoples lives and the entire world.
+
+Sustainable, is a term I constantly have in the back of my mind. I try to think in a way, being is that sustainable, if not how can I fix it to better our world.   
 
 - [https://www.instagram.com/hiskodesigns/]
 - [https://www.behance.net/RHisko11]
@@ -18,4 +20,4 @@ I believe that capturing life stories and moments is so important, not only for 
 ---
 
 
-© Hisko Designs 
+© Hisko Designs
