@@ -1,0 +1,28 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .banner {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  color: white;
+  width: 100%;
+  left: 0;
+  bottom: 10%;
+}
+
+.btn-ghost {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  border-width: 1px;
+  border-color: #fff;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  border-color: #fff;
+}
