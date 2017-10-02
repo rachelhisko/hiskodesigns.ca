@@ -1,8 +1,12 @@
 html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
-  .banner {
+h1 {
+  font-size: 2rem;
+}
+
+.banner {
   position: relative;
 }
 
@@ -23,6 +27,43 @@ html{
   border-radius: 0px;
 }
 
-.btn:hover {
-  border-color: #fff;
+.btn-nav {
+  background-color: #2e4d43;
+  border-radius: 0px;
+  border-color: #2e4d43;
+  font-size: .7rem;
+}
+
+.btn-nav:hover {
+  background-color: #728778;
+  border-color: #728778;
+}
+
+nav {
+  max-width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(255, 255, 255, .5);
+  color: #fff;
+  border-color: rgba(255, 255, 255, .5);
+}
+
+.image {
+  max-width: 800px;
+  height: auto;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.work {
+  margin-left: auto;
+  margin-right: auto;
 }
