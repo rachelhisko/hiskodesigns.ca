@@ -81,5 +81,14 @@ nav {
 .about {
   color: #575757;
   font-size: 15px;
-  align: right;
+}
+
+footer {
+  color: #575757;
+  font-size: 12px;
+}
+
+.description {
+  color: #575757;
+  font-size: 15px;
 }
