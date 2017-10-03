@@ -1,4 +1,4 @@
-# hiskodesigns.ca
+actually# hiskodesigns.ca
 
 #Rachel hisko
 
@@ -8,9 +8,9 @@ I always try to think outside the box. I challenge myself to consider many diffe
 
  I feel that when I think diversely, it will allow me to contribute something to the world that will help make a difference.
 
-I believe that I am put on this earth for a reason, that reason being to design interfaces that will (awkward Fix) better peoples lives and the entire world.
+I believe that I am put on this earth for a reason, that reason being to design web or app base interfaces that anyone can use and actually benefit from it. I want to design interfaces that will help people live sustainable lives and 
 
-Sustainable, is a term I constantly have in the back of my mind. I try to think in a way, being is that sustainable, if not how can I fix it to better our world.   
+Sustainable, is a term I constantly have in the back of my mind. I try to think in a way, being is that sustainable, if not how can I fix it to better our world.
 
 - [https://www.instagram.com/hiskodesigns/]
 - [https://www.behance.net/RHisko11]
