@@ -45,6 +45,8 @@ header {
 
 .nav {
   display: none;
+  position: absolute;
+  background-color: #FCFCFC;
 }
 
 a {
@@ -78,8 +80,8 @@ nav {
   display: inline-block;
   width: 40px;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  left: 0;
+  top: 0;
 }
 
 .nav-check:checked ~ .nav-label {
@@ -87,9 +89,10 @@ nav {
 }
 
 .nav-open,
-.nav-clolse {
+.nav-close {
   display: block;
-  width: 100%
+  width: 100%;
+  position: absolute;
 }
 
 .nav-close {
@@ -109,14 +112,14 @@ nav {
 }
 
 .work {
-  max-width: 800px;
+  max-width: 250px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 .about {
-  max-width: 800px;
+  max-width: 300px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
