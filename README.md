@@ -4,13 +4,11 @@ actually# hiskodesigns.ca
 
 ![](me.jpg)
 
-I always try to think outside the box. I challenge myself to consider many different perspectives then my own.
+I am a Graphic Designer with a passion towards human-centered designs. I primarily focus on innovative concepts regarding the User Interface and the User Experience (UI/UX).
 
- I feel that when I think diversely, it will allow me to contribute something to the world that will help make a difference.
+I am an out of the box thinking, always challenging myself to consider alternative perspectives, other than my own. By contemplating various viewpoints, it will help me realize unique ideas that may make significant change in the world.
 
-I believe that I am put on this earth for a reason, that reason being to design web or app base interfaces that anyone can use and actually benefit from it. I want to design interfaces that will help people live sustainable lives and contribute back...
-
-Sustainable, is a term I constantly have in the back of my mind. I try to think in a way, being is that sustainable, if not how can I fix it to better our world.
+I believe that I was put on this earth for a reason, to use my skills as an inspired designer to develop an app-based interface that may have a positive impact on people. I want to design interfaces that will assist people to live a balanced life, while helping to create a more sustainable world. Sustainability is the foundation of my work; by always trying to provide alternative methods to simplify our global and individual dilemmas.
 
 - [https://www.instagram.com/hiskodesigns/]
 - [https://www.behance.net/RHisko11]
