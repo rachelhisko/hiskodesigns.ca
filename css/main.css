@@ -20,7 +20,6 @@ h1 {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  max-width: 95%;
 }
 
 .banner-content {
@@ -55,8 +54,12 @@ header {
 
 .nav {
   display: none;
-  position: absolute;
-  background-color: #FCFCFC;
+  color: #2e4d43
+}
+
+.nav li:hover {
+  background-color: #eee;
+  color: #fff;
 }
 
 a {
@@ -69,30 +72,27 @@ a {
 }
 
 .nav-check {
-  position: absolute;
   top:-3em;
 }
 
 .nav-label {
   cursor: pointer;
   display: inline-block;
-  width: 40px;
-  position: absolute;
   left: 0;
   top: 0;
-  color: #fff;
+  color: #2e4d43;
   letter-spacing: .06em;
+  border-bottom: 1px lightGrey solid;
 }
 
-.nav-check:checked ~ .nav-label {
-  background: #ccc;
+.nav-label:hover {
+  color: #0e2f24;
 }
 
 .nav-open,
 .nav-close {
   display: block;
   width: 100%;
-  position: absolute;
 }
 
 .nav-close {
@@ -105,6 +105,14 @@ a {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.card:hover {
+  text-decoration: underline;
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
 }
 
 .about {
