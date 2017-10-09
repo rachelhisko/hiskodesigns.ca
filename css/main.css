@@ -1,6 +1,6 @@
 html {
-  font-family: "Raleway", sans-serif;
-  background: #FCFCFC
+  font-family: Raleway, sans-serif;
+  background: #fcfcfc;
 }
 
 h1 {
@@ -25,7 +25,6 @@ h1 {
 .banner-content {
   position: absolute;
   color: white;
-  width: 100%;
   left: 0;
   bottom: 10%;
 }
@@ -54,7 +53,8 @@ header {
 
 .nav {
   display: none;
-  color: #2e4d43
+  color: #2e4d43;
+  border-bottom: 2px lightgrey solid;
 }
 
 .nav li:hover {
@@ -72,7 +72,7 @@ a {
 }
 
 .nav-check {
-  top:-3em;
+  top: -3em;
 }
 
 .nav-label {
@@ -80,9 +80,9 @@ a {
   display: inline-block;
   left: 0;
   top: 0;
-  color: #2e4d43;
+  color: lightgrey;
   letter-spacing: .06em;
-  border-bottom: 1px lightGrey solid;
+  border-bottom: 1px lightgrey solid;
 }
 
 .nav-label:hover {
@@ -129,17 +129,17 @@ footer {
 
 .project-title {
   color: #575757;
-  letter-spacing: .05rem;
+  letter-spacing: .06rem;
 }
 
 .project-discription {
   color: #575757;
-  letter-spacing: .05rem;
+  letter-spacing: .06rem;
   font-weight: 200;
 }
 
 .social svg {
-  fill: lightGrey;
+  fill: lightgrey;
 }
 
 .social:hover svg {
@@ -153,22 +153,50 @@ p {
 
 h2 {
   letter-spacing: .09rem;
+}
 
+h3 {
+  letter-spacing: .06rem;
 }
 
 h6 {
-  letter-spacing: .05rem;
+  letter-spacing: .06rem;
   font-weight: 400;
 }
 
 legend {
-  letter-spacing: .05rem;
+  letter-spacing: .06rem;
   font-weight: 400;
   color: #575757;
 }
 
 label {
-  letter-spacing: .05rem;
+  letter-spacing: .06rem;
   font-weight: 400;
   color: #575757;
+}
+
+input,
+textarea {
+  border: 1.6px lightgrey solid;
+}
+
+.title-discription {
+  font-weight: 300;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.work {
+  color: #575757;
+}
+
+.prototype {
+  color: lightgrey;
+}
+
+.prototype:hover {
+  color: #2e4d43;
 }
