@@ -138,10 +138,12 @@ footer {
   font-weight: 200;
 }
 
-.social {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+.social svg {
+  fill: lightGrey;
+}
+
+.social:hover svg {
+  fill: #0e2f24;
 }
 
 p {
