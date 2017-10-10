@@ -1,0 +1,202 @@
+html {
+  font-family: Raleway, sans-serif;
+  background: #fcfcfc;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.talk {
+  font-weight: 300;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-content {
+  position: absolute;
+  color: white;
+  left: 0;
+  bottom: 10%;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-width: 1px;
+  border-color: #fff;
+  background-color: transparent;
+  border-radius: 0;
+  letter-spacing: .5px;
+
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #2e4d43;
+  border-color: #fff;
+  letter-spacing: .5px;
+  font-weight: 400;
+}
+
+header {
+  position: relative;
+}
+
+.nav {
+  display: none;
+  color: #2e4d43;
+  border-bottom: 2px lightgrey solid;
+}
+
+.nav li:hover {
+  background-color: #eee;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #2e4d43;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  color: lightgrey;
+  letter-spacing: .06em;
+  border-bottom: 1px lightgrey solid;
+}
+
+.nav-label:hover {
+  color: #0e2f24;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.card:hover {
+  text-decoration: underline;
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.about {
+  color: #575757;
+}
+
+footer {
+  color: #575757;
+}
+
+.description {
+  color: #575757;
+}
+
+.project-title {
+  color: #575757;
+  letter-spacing: .06rem;
+}
+
+.project-discription {
+  color: #575757;
+  letter-spacing: .06rem;
+  font-weight: 200;
+}
+
+.social svg {
+  fill: lightgrey;
+}
+
+.social:hover svg {
+  fill: #0e2f24;
+}
+
+p {
+  letter-spacing: .04em;
+  font-weight: 300;
+}
+
+h2 {
+  letter-spacing: .09rem;
+}
+
+h3 {
+  letter-spacing: .06rem;
+}
+
+h6 {
+  letter-spacing: .06rem;
+  font-weight: 400;
+}
+
+legend {
+  letter-spacing: .06rem;
+  font-weight: 400;
+  color: #575757;
+}
+
+label {
+  letter-spacing: .06rem;
+  font-weight: 400;
+  color: #575757;
+}
+
+input,
+textarea {
+  border: 1.6px lightgrey solid;
+}
+
+.title-discription {
+  font-weight: 300;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.work {
+  color: #575757;
+}
+
+.prototype {
+  color: lightgrey;
+}
+
+.prototype:hover {
+  color: #2e4d43;
+}
