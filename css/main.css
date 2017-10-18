@@ -245,3 +245,7 @@ textarea {
 .icon-content {
     position: relative;
 }
+
+.current {
+  font-weight: 700;
+}
