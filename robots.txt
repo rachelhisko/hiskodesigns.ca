@@ -1,0 +1,3 @@
+Sitemap: https://hiskodesigns.ca/sitemap.xml
+
+User-Agent: *
