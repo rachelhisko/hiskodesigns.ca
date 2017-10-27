@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Rachel Hisko Designs • Portfolio Website</title>
+  <title>{% if page.title %}{{page.title}} • {% endif %}Rachel Hisko Portfolio Website</title>
   <meta name="description" content="A website to display my work I accomplished throughout my school years.">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
 </head>
 
-<body>
+<body itmeref="data-author" itemscope itemtype="https://schema.org/WebSite">
 
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
@@ -43,11 +43,16 @@
 
     </main>
 
-    <footer class="push">
+    <footer id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="push">
       <div class="gutter">
         <p class="push-0 bold subtitle">Want to talk Design?</p>
-        <p class="main-text push-1-2">rhisko11@outlook.com // 613.402.2117</p>
-      </div>
+        <p>© <span itemprop="name">Rachel Hisko</span></p>
+        <a itemprop="email" href="mailto:rachel@hiskodesigns.ca">rachel@hiskodesigns.ca</a>
+        <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Ottawa</span>
+          <span itemprop="addressRegion">Ontario</span>
+          <span itemprop="addressCountry">Canada</span>
+        </p>
       <div class="gutter-2 text-right">
         <div class="inline-block gutter-1-2">
           <i class="icon i-24 push-1-4">
