@@ -1,6 +1,6 @@
 html {
   font-family: Raleway, sans-serif;
-  background: #fcfcfc;
+  background: #fff;
 }
 
 h1 {
@@ -36,7 +36,6 @@ h1 {
   background-color: transparent;
   border-radius: 0;
   letter-spacing: .5px;
-
 }
 
 .btn-ghost:hover {
