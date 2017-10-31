@@ -67,6 +67,14 @@ a {
   color: #2e4d43;
 }
 
+.grey {
+  filter: grayscale();
+}
+
+.grey:hover {
+  filter: none;
+}
+
 .nav-check:checked ~ .nav {
   display: block;
 }
@@ -113,6 +121,25 @@ a {
 
 .card:hover .card-img {
   transform: scale(1.1);
+}
+
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .about {
