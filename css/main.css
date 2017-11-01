@@ -3,6 +3,10 @@ html {
   background: #fff;
 }
 
+.wrapper {
+  max-width: 48em;
+}
+
 h1 {
   font-weight: 300;
 }
@@ -257,11 +261,13 @@ textarea {
 }
 
 .prototype {
-  color: lightgrey;
+  color: #2e4d43;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .prototype:hover {
-  color: #2e4d43;
+  font-size: 20px
 }
 
 .icon {
