@@ -3,8 +3,8 @@ html {
   background: #fff;
 }
 
-.wrapper {
-  max-width: 48em;
+.max-length {
+  max-width: 42em;
 }
 
 h1 {
