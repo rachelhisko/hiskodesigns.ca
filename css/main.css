@@ -4,7 +4,7 @@ html {
 }
 
 .wrapper {
-  max-width: 60em;
+  max-width: 50em;
 }
 
 h1 {
@@ -59,12 +59,7 @@ nav ul {
   text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
-}
-
 nav ul li a {
-  display: block;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
