@@ -35,7 +35,7 @@ h1 {
 
 .btn-ghost {
   color: #fff;
-  border-width: 1px;
+  border-width: 0.25px;
   border-color: #fff;
   background-color: transparent;
   border-radius: 0;
@@ -43,8 +43,8 @@ h1 {
 }
 
 .btn-ghost:hover {
-  background-color: #fff;
-  color: #2e4d43;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
   border-color: #fff;
   letter-spacing: .5px;
   font-weight: 400;
@@ -54,19 +54,32 @@ header {
   position: relative;
 }
 
-.nav {
-  display: none;
-  color: #2e4d43;
+nav ul {
+  list-style: none;
+  text-align: center;
 }
 
-.nav li:hover {
-  background-color: #eee;
-  color: #fff;
+nav ul li {
+  display: inline-block;
 }
 
-a {
+nav ul li a {
+  display: block;
   text-decoration: none;
-  color: #2e4d43;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
 }
 
 .grey {
@@ -75,45 +88,6 @@ a {
 
 .grey:hover {
   filter: none;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-check {
-  top: -3em;
-}
-
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  left: 0;
-  top: 0;
-  color: lightgrey;
-  letter-spacing: .06em;
-}
-
-.nav-label:hover {
-  color: #0e2f24;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
 }
 
 .card:hover {
@@ -235,12 +209,6 @@ legend {
   color: #575757;
 }
 
-label {
-  letter-spacing: .06rem;
-  font-weight: 400;
-  color: #575757;
-}
-
 input,
 textarea {
   border: 1.6px lightgrey solid;
@@ -278,28 +246,4 @@ textarea {
 
 .current {
   font-weight: 700;
-}
-
-@media only screen and (min-width: 32em) {
-
-  .nav-label {
-    display: none;
-  }
-
-  .nav-check {
-    display: none;
-  }
-
-  .top-nav {
-    display: block;
-  }
-
-  label {
-    display: none !important;
-  }
-
-  .nav {
-    display: block;
-  }
-
 }
