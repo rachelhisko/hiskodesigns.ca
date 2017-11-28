@@ -4,7 +4,7 @@ html {
 }
 
 .wrapper {
-  max-width: 50em;
+  max-width: 60em;
 }
 
 h1 {
@@ -240,8 +240,4 @@ textarea {
 
 .current {
   font-weight: 700;
-}
-
-.logo {
-  color: #2f4e43;
 }
