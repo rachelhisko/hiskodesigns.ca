@@ -1,13 +1,14 @@
-<div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 push-1-2 gutter-1-4">
+<div class="unit xs-1 s-1-2 m-1-3 l-1-3 push-1-8 gutter-1-8">
   <a class="card" href="{{site.baseurl}}{{include.url}}">
-    <div class="grey">
-      <div class="embed embed-1by1">
-        <img class="img-flex card-img embed-item" src="{{include.file}}" alt="{{include.alt}}">
-      </div>
-      <div class="sliding-middle-out">
-        <h2 class="project-title push-0 pad-t-1-2 text-upper giga">{{include.title}}</h2>
-        <h3 class="project-discription kilo push-0">{{include.caption}}</h3>
-      </div>
+    <div class="relative">
+      <div class="color-box"></div>
+        <div class="embed embed-4by3">
+          <img class="grey img-flex embed-item" src="{{include.file}}" alt="{{include.alt}}">
+        </div>
+        <div class="absolute pin-center project w-1">
+          <h2 class="push-0 pad-t-1-4 text-upper giga">{{include.title}}</h2>
+          <h3 class="kilo push-0">{{include.caption}}</h3>
+        </div>
     </div>
   </a>
 </div>
