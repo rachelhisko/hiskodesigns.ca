@@ -207,14 +207,16 @@ textarea {
   font-size: 20px
 }
 
-.icon {
-  position: absolute;
-}
-
 .icon-content {
     position: relative;
 }
 
 .current {
   font-weight: 700;
+}
+
+.logo {
+  color: #2e4d43;
+  width: 100px;
+  height: 50px;
 }
