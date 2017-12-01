@@ -59,15 +59,14 @@ nav ul {
   text-align: center;
 }
 
-.nav {
-  padding-left: 20rem;
-  padding-right: 20rem;
+.max-length {
+  max-width: 20em;
 }
 
 nav ul li a {
   text-decoration: none;
   color: lightgrey;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -213,7 +212,7 @@ textarea {
 }
 
 .icon-content {
-    position: relative;
+  position: relative;
 }
 
 .current {
