@@ -59,6 +59,11 @@ nav ul {
   text-align: center;
 }
 
+.nav {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
 nav ul li a {
   text-decoration: none;
   color: lightgrey;
