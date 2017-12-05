@@ -177,6 +177,7 @@ h2 {
 .underline-header {
   border-bottom: 1.5px solid #575757;
   width: 100%;
+  top: 0;
 }
 
 h3 {
