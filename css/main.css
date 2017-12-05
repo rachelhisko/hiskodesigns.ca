@@ -7,6 +7,10 @@ html {
   max-width: 60em;
 }
 
+.wrapper {
+  max-width: 60em;
+}
+
 h1 {
   font-weight: 300;
 }
@@ -166,11 +170,17 @@ p {
 }
 
 h2 {
-  letter-spacing: .09rem;
+  letter-spacing: .1rem;
+  font-weight: 700;
+}
+
+.underline-header {
+  border-bottom: 2px solid black;
 }
 
 h3 {
   letter-spacing: .06rem;
+  font-weight: 400;
 }
 
 h6 {
@@ -221,8 +231,8 @@ textarea {
 
 .logo {
   color: lightgrey;
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 75px;
 
   transition: all .5s;
 }
