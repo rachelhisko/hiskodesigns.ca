@@ -146,6 +146,10 @@ nav ul li a:hover {
   color: #575757;
 }
 
+.heading {
+  background: #2f4e43;
+}
+
 footer {
   color: #575757;
 }
@@ -174,14 +178,11 @@ h2 {
   font-weight: 700;
 }
 
-.underline-header {
-  border-bottom: 1.5px solid #575757;
-  width: 100%;
-  top: 0;
-}
-
 h3 {
   letter-spacing: .06rem;
+}
+
+.name {
   font-weight: 400;
 }
 
