@@ -85,7 +85,7 @@ nav ul li a:hover {
 }
 
 .grey {
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 
 .card:hover .color-box {
