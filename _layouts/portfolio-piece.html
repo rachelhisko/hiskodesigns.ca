@@ -4,18 +4,18 @@ title: {{page.title}}
 meta: {{page.meta}}
 ---
 
-<section class="gutter work" itemref="data-author" itemscope itemtype="https://schema.org/CreativeWork">
+<section class="work" itemref="data-author" itemscope itemtype="https://schema.org/CreativeWork">
 
   <main class="pad-t" role="main" id="main">
 
-    <h1 class="push-0 title zetta gutter-1-2" itemprop="name">{{page.main-title}}</h1>
+    <h1 class="push-0 title zetta gutter-1-2 text max-width" itemprop="name">{{page.main-title}}</h1>
     <h2 class="push title-discription tera gutter-1-2" itemprop="description">{{page.main-description}}</h2>
 
     <div class="push">
       <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.subtitle-concept}}</h3>
       <p class="gutter-1-2" itemprop="description">{{page.concept}}</p>
       <div class="push-1-2">
-        <img itemprop="image" class="img-flex gutter-1-2" src="{{site.baseurl}}{{page.top-image}}" alt="{{page.alt-top-image}}" role="presentation">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.top-image}}" alt="{{page.alt-top-image}}" role="presentation">
       </div>
     </div>
 
@@ -51,7 +51,7 @@ meta: {{page.meta}}
     <div class="push">
       <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.subtitle-visual-design}}</h3>
       <div class="phone">
-        <div class="grid">
+        <div class="grid wrapper">
           <div class="unit xs-1-2 s-1-2 m-1-2">
             <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-1}}" alt="{{page.alt-screen-1}}" role="presentation">
           </div>
