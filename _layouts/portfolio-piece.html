@@ -4,104 +4,138 @@ title: {{page.title}}
 meta: {{page.meta}}
 ---
 
-<section class="work" itemref="data-author" itemscope itemtype="https://schema.org/CreativeWork">
+<section itemref="data-author" itemscope itemtype="https://schema.org/CreativeWork">
 
   <main class="pad-t" role="main" id="main">
 
-    <h1 class="push-0 title zetta gutter-1-2 text max-width" itemprop="name">{{page.main-title}}</h1>
-    <h2 class="push title-discription tera gutter-1-2" itemprop="description">{{page.main-description}}</h2>
+    <div class="content">
+      <h1 class="push-0 title zetta gutter-1-2 text" itemprop="name">{{page.main-title}}</h1>
+      <h2 class="push-1-4 title-discription tera gutter-1-2" itemprop="description">{{page.main-description}}</h2>
+    </div>
 
-    <div class="push">
-      <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.subtitle-concept}}</h3>
-      <p class="gutter-1-2" itemprop="description">{{page.concept}}</p>
+    <div class="content">
       <div class="push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.top-image}}" alt="{{page.alt-top-image}}" role="presentation">
+        <img itemprop="image" class="img-flex gutter-1-2" src="{{site.baseurl}}{{page.top-image}}" alt="{{page.alt-top-image}}">
+      </div>
+      <div class="push-2">
+        <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.subtitle-concept}}</h3>
+        <p class="gutter-1-2" itemprop="description">{{page.concept}}</p>
       </div>
     </div>
 
-    <div class="push">
-      <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.title-personas}}</h3>
+    <div class="content">
+      <h3 class="push-1-4 gutter-1-2 content" itemprop="name">{{page.title-personas}}</h3>
       <div class="grid">
         <div class="unit xs-1 s-1 l-1-2 gutter-1-2">
-          <img itemprop="image" class="img-flex push" src="{{site.baseurl}}{{page.persona-image-1}}" alt="{{page.alt-persona-image-1}}" role="presentation">
+          <img itemprop="image" class="img-flex push" src="{{site.baseurl}}{{page.persona-image-1}}" alt="{{page.alt-persona-image-1}}">
           <p itemprop="description">{{page.persona-text-1}}</p>
         </div>
-        <div class="unit xs-1 s-1 l-1-2 gutter-1-2">
-          <img itemprop="image" class="img-flex push" src="{{site.baseurl}}{{page.persona-image-2}}" alt="{{page.alt-persona-image-2}}" role="presentation">
+        <div class="unit xs-1 s-1 l-1-2 gutter-1-2 push">
+          <img itemprop="image" class="img-flex push" src="{{site.baseurl}}{{page.persona-image-2}}" alt="{{page.alt-persona-image-2}}">
           <p itemprop="description">{{page.persona-text-2}}</p>
         </div>
       </div>
     </div>
 
-    <div class="push">
+    <div class="content">
       <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.subtitle-process}}</h3>
       <div class="grid">
         <div class="unit xs-1-2 s-1-2 m-1-2 push-1-2 gutter-1-2">
-          <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketches1}}" alt="{{page.alt-sketches1}}" role="presentation">
+          <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketches1}}" alt="{{page.alt-sketches1}}">
         </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 push-1-2 gutter-1-2">
-          <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketches2}}" alt="{{page.alt-sketches2}}" role="presentation">
+          <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketches2}}" alt="{{page.alt-sketches2}}">
         </div>
       </div>
-      <div class="push-1-2 gutter-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.prototype}}" alt="{{page.alt-prototype}}" role="presentation">
+      <div class="push-2 gutter-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.prototype}}" alt="{{page.alt-prototype}}">
       </div>
     </div>
 
-    <div class="push">
+    <div class="push content">
       <h3 class="push-1-4 gutter-1-2" itemprop="name">{{page.subtitle-visual-design}}</h3>
-      <div class="phone">
-        <div class="grid wrapper">
+      <div>
+        <div class="grid text-center">
           <div class="unit xs-1-2 s-1-2 m-1-2">
-            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-1}}" alt="{{page.alt-screen-1}}" role="presentation">
+            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-1}}" alt="{{page.alt-screen-1}}">
           </div>
           <div class="unit xs-1-2 s-1-2 m-1-2">
-            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-2}}" alt="{{page.alt-screen-2}}" role="presentation">
+            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-2}}" alt="{{page.alt-screen-2}}">
           </div>
         </div>
-        <h4 class="push-0 gutter-1-2" itemprop="name">{{page.feature-1}}</h4>
-        <p class="push gutter-1-2" itemprop="description">{{page.feature-1-description}}</p>
+        <div class="gutter">
+          <div class="gutter-2">
+            <h4 class="push-0" itemprop="name">{{page.feature-1}}</h4>
+            <p class="push-2" itemprop="description">{{page.feature-1-description}}</p>
+          </div>
+        </div>
       </div>
-      <div class="phone">
-        <div class="grid">
+      <div>
+        <div class="grid content text-center">
           <div class="unit xs-1-2 s-1-2 m-1-2">
-            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-3}}" alt="{{page.alt-screen-3}}" role="presentation">
+            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-3}}" alt="{{page.alt-screen-3}}">
           </div>
           <div class="unit xs-1-2 s-1-2 m-1-2">
-            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-4}}" alt="{{page.alt-screen-4}}" role="presentation">
+            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-4}}" alt="{{page.alt-screen-4}}">
           </div>
         </div>
-        <h4 class="push-0 gutter-1-2" itemprop="name">{{page.feature-2}}</h4>
-        <p class="push gutter-1-2" itemprop="description">{{page.feature-2-description}}</p>
+        <div class="gutter">
+          <div class="gutter-2">
+            <h4 class="push-0" itemprop="name">{{page.feature-2}}</h4>
+            <p class="push-2" itemprop="description">{{page.feature-2-description}}</p>
+          </div>
+        </div>
       </div>
-      <div class="phone">
-        <div class="grid">
+      <div>
+        <div class="grid content text-center">
           <div class="unit xs-1-2 s-1-2 m-1-2">
-            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-5}}" alt="{{page.alt-screen-5}}" role="presentation">
+            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-5}}" alt="{{page.alt-screen-5}}">
           </div>
           <div class="unit xs-1-2 s-1-2 m-1-2">
-            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-6}}" alt="{{page.alt-screen-6}}" role="presentation">
+            <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.screen-6}}" alt="{{page.alt-screen-6}}">
           </div>
         </div>
-        <h4 class="push-0 gutter-1-2" itemprop="name">{{page.feature-3}}</h4>
-        <p class="push gutter-1-2" itemprop="description">{{page.feature-3-description}}</p>
+        <div class="gutter">
+          <div class="gutter-2">
+            <h4 class="push-0" itemprop="name">{{page.feature-3}}</h4>
+            <p class="push-2" itemprop="description">{{page.feature-3-description}}</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="push">
+    <div class="push content">
       <h3 class="push gutter-1-2" itemprop="name">{{page.icons}}</h3>
       <div class="push gutter-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.icons-image}}" alt="{{page.alt-icons-image}}" role="presentation">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.icons-image}}" alt="{{page.alt-icons-image}}">
       </div>
       <p class="push gutter-1-2" itemprop="description">{{page.icons-description}}</p>
     </div>
 
-    <div class="push-0 gutter-1-2">
+    <div class="push-0 content">
       <a class="prototype" itemprop="url" href="{{page.prototype-link}}">{{page.interactive}}</a>
     </div>
 
-    <div>
-      <p class="gutter-1-2 push-1-2">Design by Rachel Hisko</p>
+    <div class="content push-2">
+      <p>Design by Rachel Hisko</p>
+    </div>
+
+    <div class="content nav-link pad-t-1-2">
+      <div class="inline">
+        <a href="{{site.baseurl}}/{{page.previous}}">Previous</a>
+      </div>
+      <div class="text-center push pad-t inline gutter">
+        <a itemprop="url" href="{{site.baseurl}}/#portfolio">
+          <i class="icon-link icon i-32">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#dashboard"></use>
+            </svg>
+          </i>
+        </a>
+      </div>
+      <div class="inline">
+        <a href="{{site.baseurl}}/{{page.next}}">Next</a>
+      </div>
     </div>
 
   </main>

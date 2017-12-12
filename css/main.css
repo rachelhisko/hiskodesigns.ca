@@ -1,10 +1,16 @@
 html {
   font-family: Raleway, sans-serif;
   background: #fff;
+  color: #575757;
 }
 
 .wrapper {
   max-width: 60em;
+}
+
+.content {
+  max-width: 40em;
+  margin: auto;
 }
 
 h1 {
@@ -206,18 +212,15 @@ textarea {
   font-weight: 700;
 }
 
-.work {
-  color: #575757;
-}
-
 .prototype {
   color: #2e4d43;
   font-weight: 700;
   font-size: 18px;
+  transition: all .3s ease;
 }
 
 .prototype:hover {
-  font-size: 20px
+  font-size: 19px
 }
 
 .icon-content {
@@ -237,5 +240,23 @@ textarea {
 }
 
 .logo:hover {
+  color: #2e4d43;
+}
+
+.top {
+  text-decoration: none;
+  color: #575757;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link a {
+  color: lightgrey;
+  font-weight: 400;
+}
+
+.nav-link a:hover {
   color: #2e4d43;
 }
