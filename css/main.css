@@ -69,6 +69,11 @@ nav ul {
   max-width: 25em;
 }
 
+.photo-nav {
+  max-width: 45em;
+}
+
+
 nav ul li a {
   text-decoration: none;
   color: lightgrey;
