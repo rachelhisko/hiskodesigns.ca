@@ -256,3 +256,7 @@ a {
 .photography {
 min-height: 10rem;
 }
+
+.email {
+  font-weight: 400;
+}
