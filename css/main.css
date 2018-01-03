@@ -43,6 +43,13 @@ h1 {
   bottom: 10%;
 }
 
+.error-content {
+  position: absolute;
+  color: white;
+  bottom: 50%;
+  left: 10%;
+}
+
 header {
   background-color: #fff;
 }
