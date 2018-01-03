@@ -46,7 +46,7 @@ h1 {
 .error-content {
   position: absolute;
   color: white;
-  bottom: 50%;
+  bottom: 10%;
   left: 10%;
 }
 
@@ -78,7 +78,8 @@ nav ul li a {
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
-  transition: all .5s;
+
+
 }
 
 nav ul li a:hover {
@@ -266,4 +267,20 @@ min-height: 10rem;
 
 .email {
   font-weight: 400;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-width: 0.5px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
+  border-radius: 30px;
+  border-color: #fff;
+  color: #fff;
+
+  transition: all .3s ease;
 }

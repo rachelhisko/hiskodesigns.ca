@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}} • {% endif %}Rachel Hisko Portfolio Website</title>
-  <meta name="description" content="A website to display my work I accomplished throughout my school years.">
+  <meta name="description" content="A website to display my work I accomplished from 2015-2018.">
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/thy4leb.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -18,7 +18,7 @@
   </ul>
 
   <div>
-
+{% unless page.hidewrapper %}
     <header role="banner" class="w-1 pad-t-1-4 pad-b-1-4 gutter-1-4 banner wrapper">
 
       <div>
@@ -45,13 +45,13 @@
       </div>
 
     </header>
-
+{% endunless %}
     <main>
 
       {{content}}
 
     </main>
-
+{% unless page.hidewrapper %}
     <footer class="push wrapper" id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
       <div class="content pad-t-2 right nav-link pad-b-1-2">
         <a class="top" href="#">Back to top</a>
@@ -91,7 +91,7 @@
       </div>
     </div>
     </footer>
-
+{% endunless %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
