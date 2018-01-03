@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} • {% endif %}Rachel Hisko Portfolio Website</title>
+  <meta name="description" content="A website to display my work I accomplished throughout my school years.">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/thy4leb.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body itmeref="data-author" itemscope itemtype="https://schema.org/WebSite">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navagation</a></li>
+    <li><a href="#contentinfo">Jump to contentinfo</a></li>
+  </ul>
+
+  <div>
+
+    <header role="banner" class="w-1 pad-t-1-4 pad-b-1-4 gutter-1-4 banner wrapper">
+
+      <div>
+        <nav role="navigation" id="nav">
+          <div class="grid">
+            <div class="unit xs-1 text-center push pad-t">
+              <a itemprop="url" href="{{site.baseurl}}/">
+                <i class="logo icon-link icon i-128">
+                  <svg>
+                    <use xlink:href="{{site.baseurl}}/images/icons.svg#rachel-hisko"></use>
+                  </svg>
+                </i>
+              </a>
+            </div>
+            <div class="unit xs-1">
+              <ul class="list-group grid nav kilo max-length">
+                <li class="unit xs-1-3"><a href="{{site.baseurl}}/#about">About</a></li>
+                <li class="unit xs-1-3"><a href="{{site.baseurl}}/#portfolio">Work</a></li>
+                <li class="unit xs-1-3"><a href="mailto:rachel@hiskodesigns.ca">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    </header>
