@@ -21,6 +21,10 @@ h1 {
   font-weight: 400;
 }
 
+.me {
+  font-weight: 400;
+}
+
 .talk {
   font-weight: 300;
 }
@@ -281,6 +285,7 @@ min-height: 10rem;
   border-radius: 30px;
   border-color: #fff;
   color: #fff;
+  border-width: 0.5px;
 
   transition: all .3s ease;
 }
