@@ -17,18 +17,6 @@ h1 {
   font-weight: 300;
 }
 
-.job {
-  font-weight: 400;
-}
-
-.me {
-  font-weight: 400;
-}
-
-.talk {
-  font-weight: 300;
-}
-
 .img-flex {
   display: block;
   width: 100%;
@@ -54,10 +42,6 @@ h1 {
   left: 10%;
 }
 
-header {
-  background-color: #fff;
-}
-
 nav ul {
   list-style: none;
   text-align: center;
@@ -70,7 +54,6 @@ nav ul {
 .photo-nav {
   max-width: 45em;
 }
-
 
 nav ul li a {
   text-decoration: none;
@@ -146,22 +129,6 @@ nav ul li a:focus {
   width: 100%;
 }
 
-.about {
-  color: #575757;
-}
-
-.heading {
-  background: #2f4e43;
-}
-
-footer {
-  color: #575757;
-}
-
-.description {
-  color: #575757;
-}
-
 .social svg {
   fill: lightgrey;
 
@@ -178,22 +145,9 @@ p {
   font-weight: 300;
 }
 
-h2 {
-  letter-spacing: .1rem;
+h2, h3 {
+  letter-spacing: .06rem;
   font-weight: 700;
-}
-
-h3 {
-  letter-spacing: .06rem;
-}
-
-.name {
-  font-weight: 400;
-}
-
-h6 {
-  letter-spacing: .06rem;
-  font-weight: 400;
 }
 
 legend {
@@ -211,10 +165,6 @@ textarea {
   font-weight: 300;
 }
 
-.title {
-  font-weight: 700;
-}
-
 .prototype {
   color: #2e4d43;
   font-weight: 700;
@@ -225,10 +175,6 @@ textarea {
 .prototype:hover,
 .prototype:focus {
   font-size: 19px
-}
-
-.icon-content {
-  position: relative;
 }
 
 .current {
@@ -267,12 +213,8 @@ a {
   color: #2e4d43;
 }
 
-.photography {
-min-height: 10rem;
-}
-
 .email {
-  font-weight: 400;
+  color: #2e4d43;
 }
 
 .btn-ghost {
