@@ -12,9 +12,10 @@
 <body itmeref="data-author" itemscope itemtype="https://schema.org/WebSite">
 
   <ul class="skip-links">
-    <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navagation</a></li>
-    <li><a href="#contentinfo">Jump to contentinfo</a></li>
+    <li><a href="#about">Jump to about</a></li>
+    <li><a href="#portfolio">Jump to portfolio work</a></li>
+    <li><a href="#contact">Jump to contact infomation</a></li>
   </ul>
 
   <div>
@@ -46,7 +47,7 @@
 
     </header>
 {% endunless %}
-    <main>
+    <main id="content">
 
       {{content}}
 
@@ -84,7 +85,7 @@
           </div>
         </div>
         <div class="text-left">
-          <div role="contentinfo" id="contentinfo">
+          <div role="contentinfo" id="contact">
             <p class="pad-t-0 micro push-1-2">© Rachel Hisko // UX/UI Designer</p>
           </div>
         </div>

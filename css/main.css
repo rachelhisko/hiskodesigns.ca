@@ -79,14 +79,8 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-
-
-}
-
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #2f4e43;
 }
 
@@ -94,7 +88,8 @@ nav ul li a:hover {
   filter: grayscale(100%);
 }
 
-.card:hover .color-box {
+.card:hover .color-box,
+.card:focus .color-box {
   background-color: #2f4e43;
   height: 100%;
   width: 100%;
@@ -103,7 +98,8 @@ nav ul li a:hover {
   opacity: 0.75;
 }
 
-.card:hover {
+.card:hover,
+.card:focus {
   text-decoration: underline;
 }
 
@@ -120,12 +116,14 @@ nav ul li a:hover {
   transition: all 250ms linear;
 }
 
-.card:hover .project {
+.card:hover .project,
+.card:focus .project {
   color: rgba(255,255,255,1);
   z-index: 2000;
 }
 
-.project:hover {
+.project:hover,
+.project:focus {
   color: rgba(255,255,255,1);
 }
 
@@ -170,7 +168,8 @@ footer {
   transition: all 250ms linear;
 }
 
-.social:hover svg {
+.social:hover svg,
+.social:focus svg {
   fill: #2f4e43;
 }
 
@@ -223,7 +222,8 @@ textarea {
   transition: all .3s ease;
 }
 
-.prototype:hover {
+.prototype:hover,
+.prototype:focus {
   font-size: 19px
 }
 
@@ -243,7 +243,8 @@ textarea {
   transition: all .5s;
 }
 
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: #2e4d43;
 }
 
@@ -261,7 +262,8 @@ a {
   font-weight: 400;
 }
 
-.nav-link a:hover {
+.nav-link a:hover,
+.nav-link a:focus {
   color: #2e4d43;
 }
 
@@ -280,7 +282,8 @@ min-height: 10rem;
   background-color: transparent;
 }
 
-.btn-ghost:hover {
+.btn-ghost:hover,
+.btn-ghost:focus {
   background-color: transparent;
   border-radius: 30px;
   border-color: #fff;
