@@ -805,16 +805,6 @@ legend {
     padding-bottom: .375rem;
   }
 
-  .pad-top-eighth,
-  .pad-t-1-8 {
-    padding-top: .1875rem;
-  }
-
-  .pad-bottom-eighth,
-  .pad-b-1-8 {
-    padding-bottom: .1875rem;
-  }
-
   .gutter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -832,32 +822,10 @@ legend {
     padding-right: .75rem;
   }
 
-  .gutter-quarter,
-  .gutter-1-4,
-  caption {
-    padding-left: .375rem;
-    padding-right: .375rem;
-  }
-
   .gutter-eighth,
   .gutter-1-8 {
     padding-left: .1875rem;
     padding-right: .1875rem;
-  }
-
-  select {
-    padding: 0 .1875rem;
-  }
-
-  fieldset {
-    padding: .375rem 0;
-
-    border: 0;
-    border-top: 2px solid #000;
-  }
-
-  legend {
-    padding-right: .375rem;
   }
 
 }
@@ -867,33 +835,6 @@ legend {
   html {
     font-size: 130%;
     line-height: 1.5;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.5rem;
-  }
-
-  .tenamega {
-    font-size: 3.6532rem;
-    line-height: 4.875rem;
   }
 
   .tenakilo {
@@ -963,50 +904,6 @@ legend {
   .micro {
     font-size: .7901rem;
     line-height: 1.5rem;
-  }
-
-  ul,
-  ol {
-    padding-left: 0;
-  }
-
-  ul ul,
-  ol ul {
-    padding-left: 1em;
-  }
-
-  ol ol,
-  ul ol {
-    padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  [type="color"] {
-    width: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  [type="checkbox"],
-  [type="radio"] {
-    display: inline-block;
-    height: auto;
   }
 
   .push {
@@ -1096,16 +993,6 @@ legend {
   .pad-bottom-quarter,
   .pad-b-1-4 {
     padding-bottom: .375rem;
-  }
-
-  .pad-top-eighth,
-  .pad-t-1-8 {
-    padding-top: .1875rem;
-  }
-
-  .pad-bottom-eighth,
-  .pad-b-1-8 {
-    padding-bottom: .1875rem;
   }
 
   .gutter {
