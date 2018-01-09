@@ -13,6 +13,35 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
+sub,
+sup {
+  font-size: 75%;
+  line-height: 1px;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-size: 100%;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
 b,
 strong {
   font-weight: bold;
@@ -27,6 +56,30 @@ hr {
   border: 0;
   border-top: 2px solid #000;
   height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+caption {
+  text-align: left;
+}
+
+th,
+td {
+  border-bottom: 1px solid #000;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  vertical-align: bottom;
+
+  border-bottom-width: 2px;
 }
 
 .text-left {
@@ -94,6 +147,28 @@ hr {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+details,
+hr,
+fieldset,
+pre,
+table,
+caption {
+  margin: 0 0 1.3rem;
+}
+
 .tenamega {
   font-size: 2.0408rem;
   line-height: 2.925rem;
@@ -107,6 +182,21 @@ hr {
 .tena {
   font-size: 1.7926rem;
   line-height: 2.6rem;
+}
+
+.nina {
+  font-size: 1.68rem;
+  line-height: 2.275rem;
+}
+
+.yotta {
+  font-size: 1.5745rem;
+  line-height: 2.275rem;
+}
+
+.zetta {
+  font-size: 1.4757rem;
+  line-height: 1.95rem;
 }
 
 h1,
@@ -164,6 +254,22 @@ ul {
 
 ol {
   padding-left: 1.6em;
+}
+
+input,
+option,
+select {
+  height: calc(1.3rem + .1625rem + .1625rem);
+}
+
+[type="color"] {
+  width: calc(1.3rem + .1625rem + .1625rem);
+}
+
+[type="checkbox"],
+[type="radio"] {
+  display: inline-block;
+  height: auto;
 }
 
 .push {
@@ -265,6 +371,35 @@ ol {
   padding-bottom: .1625rem;
 }
 
+.island {
+  padding: 1.3rem;
+}
+
+.island-double,
+.island-2 {
+  padding: 2.6rem;
+}
+
+.island-half,
+.island-1-2 {
+  padding: .65rem;
+}
+
+.island-quarter,
+.island-1-4,
+td,
+table th {
+  padding: .325rem;
+}
+
+.island-eighth,
+.island-1-8,
+input:not([type="checkbox"]),
+input:not([type="radio"]),
+textarea {
+  padding: .1625rem;
+}
+
 .gutter {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -339,6 +474,11 @@ legend {
     margin: 0 0 1.4rem;
   }
 
+  .tenamega {
+    font-size: 3.6532rem;
+    line-height: 4.9rem;
+  }
+
   .tenakilo {
     font-size: 3.2473rem;
     line-height: 4.55rem;
@@ -347,6 +487,11 @@ legend {
   .tena {
     font-size: 2.8865rem;
     line-height: 3.85rem;
+  }
+
+  .nina {
+    font-size: 2.5658rem;
+    line-height: 3.5rem;
   }
 
   .yotta {
@@ -421,6 +566,35 @@ legend {
   ol ol,
   ul ol {
     padding-left: 1.6em;
+  }
+
+  .hang-punc {
+    float: left;
+    margin-left: -1.4em;
+    text-align: right;
+    width: 1.3em;
+  }
+
+  table {
+    margin-left: -.35rem;
+    margin-right: -.35rem;
+    width: calc(100% + .35rem + .35rem);
+  }
+
+  input,
+  option,
+  select {
+    height: calc(1.4rem + .175rem + .175rem);
+  }
+
+  [type="color"] {
+    width: calc(1.4rem + .175rem + .175rem);
+  }
+
+  [type="checkbox"],
+  [type="radio"] {
+    display: inline-block;
+    height: auto;
   }
 
   .push {
@@ -522,6 +696,35 @@ legend {
     padding-bottom: .175rem;
   }
 
+  .island {
+    padding: 1.4rem;
+  }
+
+  .island-double,
+  .island-2 {
+    padding: 2.8rem;
+  }
+
+  .island-half,
+  .island-1-2 {
+    padding: .7rem;
+  }
+
+  .island-quarter,
+  .island-1-4,
+  td,
+  table th {
+    padding: .35rem;
+  }
+
+  .island-eighth,
+  .island-1-8,
+  input:not([type="checkbox"]),
+  input:not([type="radio"]),
+  textarea {
+    padding: .175rem;
+  }
+
   .gutter {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
@@ -611,6 +814,11 @@ legend {
   .tena {
     font-size: 2.8865rem;
     line-height: 4.125rem;
+  }
+
+  .nina {
+    font-size: 2.5658rem;
+    line-height: 3.375rem;
   }
 
   .yotta {
@@ -805,6 +1013,45 @@ legend {
     padding-bottom: .375rem;
   }
 
+  .pad-top-eighth,
+  .pad-t-1-8 {
+    padding-top: .1875rem;
+  }
+
+  .pad-bottom-eighth,
+  .pad-b-1-8 {
+    padding-bottom: .1875rem;
+  }
+
+  .island {
+    padding: 1.5rem;
+  }
+
+  .island-double,
+  .island-2 {
+    padding: 3rem;
+  }
+
+  .island-half,
+  .island-1-2 {
+    padding: .75rem;
+  }
+
+  .island-quarter,
+  .island-1-4,
+  td,
+  table th {
+    padding: .375rem;
+  }
+
+  .island-eighth,
+  .island-1-8,
+  input:not([type="checkbox"]),
+  input:not([type="radio"]),
+  textarea {
+    padding: .1875rem;
+  }
+
   .gutter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -822,10 +1069,32 @@ legend {
     padding-right: .75rem;
   }
 
+  .gutter-quarter,
+  .gutter-1-4,
+  caption {
+    padding-left: .375rem;
+    padding-right: .375rem;
+  }
+
   .gutter-eighth,
   .gutter-1-8 {
     padding-left: .1875rem;
     padding-right: .1875rem;
+  }
+
+  select {
+    padding: 0 .1875rem;
+  }
+
+  fieldset {
+    padding: .375rem 0;
+
+    border: 0;
+    border-top: 2px solid #000;
+  }
+
+  legend {
+    padding-right: .375rem;
   }
 
 }
@@ -837,6 +1106,33 @@ legend {
     line-height: 1.5;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  dl,
+  dd,
+  figure,
+  blockquote,
+  details,
+  hr,
+  fieldset,
+  pre,
+  table,
+  caption {
+    margin: 0 0 1.5rem;
+  }
+
+  .tenamega {
+    font-size: 3.6532rem;
+    line-height: 4.875rem;
+  }
+
   .tenakilo {
     font-size: 3.2473rem;
     line-height: 4.5rem;
@@ -845,7 +1141,12 @@ legend {
   .tena {
     font-size: 2.8865rem;
     line-height: 4.125rem;
-}
+  }
+
+  .nina {
+    font-size: 2.5658rem;
+    line-height: 3.375rem;
+  }
 
   .yotta {
     font-size: 2.2807rem;
@@ -904,6 +1205,50 @@ legend {
   .micro {
     font-size: .7901rem;
     line-height: 1.5rem;
+  }
+
+  ul,
+  ol {
+    padding-left: 0;
+  }
+
+  ul ul,
+  ol ul {
+    padding-left: 1em;
+  }
+
+  ol ol,
+  ul ol {
+    padding-left: 1.6em;
+  }
+
+  .hang-punc {
+    float: left;
+    margin-left: -1.4em;
+    text-align: right;
+    width: 1.3em;
+  }
+
+  table {
+    margin-left: -.375rem;
+    margin-right: -.375rem;
+    width: calc(100% + .375rem + .375rem);
+  }
+
+  input,
+  option,
+  select {
+    height: calc(1.5rem + .1875rem + .1875rem);
+  }
+
+  [type="color"] {
+    width: calc(1.5rem + .1875rem + .1875rem);
+  }
+
+  [type="checkbox"],
+  [type="radio"] {
+    display: inline-block;
+    height: auto;
   }
 
   .push {
@@ -995,6 +1340,45 @@ legend {
     padding-bottom: .375rem;
   }
 
+  .pad-top-eighth,
+  .pad-t-1-8 {
+    padding-top: .1875rem;
+  }
+
+  .pad-bottom-eighth,
+  .pad-b-1-8 {
+    padding-bottom: .1875rem;
+  }
+
+  .island {
+    padding: 1.5rem;
+  }
+
+  .island-double,
+  .island-2 {
+    padding: 3rem;
+  }
+
+  .island-half,
+  .island-1-2 {
+    padding: .75rem;
+  }
+
+  .island-quarter,
+  .island-1-4,
+  td,
+  table th {
+    padding: .375rem;
+  }
+
+  .island-eighth,
+  .island-1-8,
+  input:not([type="checkbox"]),
+  input:not([type="radio"]),
+  textarea {
+    padding: .1875rem;
+  }
+
   .gutter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1024,4 +1408,20 @@ legend {
     padding-left: .1875rem;
     padding-right: .1875rem;
   }
+
+  select {
+    padding: 0 .1875rem;
+  }
+
+  fieldset {
+    padding: .375rem 0;
+
+    border: 0;
+    border-top: 2px solid #000;
+  }
+
+  legend {
+    padding-right: .375rem;
+  }
+
 }

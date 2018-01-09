@@ -1,7 +1,7 @@
 /*
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;forms;buttons;accessibility;print
+ * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;buttons;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -41,8 +41,25 @@ summary {
   display: block;
 }
 
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+template {
+  display: none;
+}
+
 details {
   cursor: pointer;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
 }
 
 a,
@@ -57,6 +74,10 @@ textarea,
   touch-action: manipulation;
 }
 
+img {
+  border: 0;
+}
+
 .img-flex,
 .img-flex img {
   display: block;
@@ -65,6 +86,10 @@ textarea,
 
 svg {
   fill: currentColor;
+}
+
+svg:not(:root) {
+  overflow: hidden;
 }
 
 svg.img-flex {
@@ -128,12 +153,52 @@ svg.img-flex {
   width: 100%;
 }
 
+.embed-1by1, .embed--1by1 {
+  padding-top: 100%; /* Square */
+}
+
 .embed-4by3, .embed--4by3 {
   padding-top: 75%; /* Traditional TV/computer screens */
 }
 
+.embed-iso216, .embed--iso216 {
+  padding-top: 70.92%; /* A-standard paper sizes */
+}
+
+.embed-3by2, .embed--3by2 {
+  padding-top: 66.6%; /* Classic 35 mm film & most digital photos, landscape */
+}
+
+.embed-2by3, .embed--2by3 {
+  padding-top: 150%; /* Classic 35 mm film & most digital photos, portrait */
+}
+
+.embed-golden, .embed--golden {
+  padding-top: 61.8%; /* The Golden Ratio */
+}
+
 .embed-16by9, .embed--16by9 {
   padding-top: 56.25%; /* HD TV */
+}
+
+.embed-185by100, .embed--185by100 {
+  padding-top: 54.05%; /* Common widescreen cinema */
+}
+
+.embed-24by10, .embed--24by10 {
+  padding-top: 41.667%; /* Widescreen cinema: 2.4:1 */
+}
+
+.embed-3by1, .embed--3by1 {
+  padding-top: 33.3333%; /* Panorama photos */
+}
+
+.embed-4by1, .embed--4by1 {
+  padding-top: 25%; /* Polyvision */
+}
+
+.embed-5by1, .embed--5by1 {
+  padding-top: 20%; /* Really wide... */
 }
 
 .embed-item, .embed__item {
@@ -173,14 +238,59 @@ svg.img-flex {
   vertical-align: middle;
 }
 
+.i-16, .i--16 {
+  height: 16px;
+  width: 16px;
+}
+
+.i-18, .i--18 {
+  height: 18px;
+  width: 18px;
+}
+
+.i-20, .i--20 {
+  height: 20px;
+  width: 20px;
+}
+
+.i-24, .i--24 {
+  height: 24px;
+  width: 24px;
+}
+
 .i-32, .i--32 {
   height: 32px;
   width: 32px;
 }
 
+.i-48, .i--48 {
+  height: 48px;
+  width: 48px;
+}
+
+.i-64, .i--64 {
+  height: 64px;
+  width: 64px;
+}
+
+.i-96, .i--96 {
+  height: 96px;
+  width: 96px;
+}
+
 .i-128, .i--128 {
   height: 128px;
   width: 128px;
+}
+
+.i-192, .i--192 {
+  height: 192px;
+  width: 192px;
+}
+
+.i-256, .i--256 {
+  height: 256px;
+  width: 256px;
 }
 
 .icon img,
@@ -234,6 +344,19 @@ svg.img-flex {
 
 .invisible {
   visibility: hidden;
+}
+
+.chop,
+.crop {
+  overflow: hidden;
+}
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .scrollable {
@@ -532,64 +655,6 @@ ol > li::before {
   content: none;
 }
 
-/* stylelint-disable no-descending-specificity */
-
-/*
- * (c) Nicolas Gallagher and Jonathan Neal of Normalize.css || MIT License
- *     https://necolas.github.io/normalize.css/
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-button,
-input {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-::-webkit-input-placeholder {
-  color: inherit;
-  opacity: .54;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-/* stylelint-enable */
-
 .link-box {
   display: block;
   text-decoration: none;
@@ -616,6 +681,11 @@ button,
   text-transform: none;
 }
 
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
 /* stylelint-enable */
 
 button:focus,
@@ -629,6 +699,12 @@ button:hover,
 
 button[disabled] {
   cursor: default;
+}
+
+.btn-light, .btn--light {
+  background-color: #e2e2e2;
+  border-color: #e2e2e2;
+  color: #000;
 }
 
 .btn-light:focus,
@@ -733,6 +809,11 @@ a:focus, [tabindex="0"]:focus {
   cursor: default;
 }
 
+.print-only {
+  display: none;
+  visibility: hidden;
+}
+
 .page-break-before {
   page-break-before: always;
 }
@@ -798,6 +879,38 @@ a:focus, [tabindex="0"]:focus {
     widows: 3;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  h1 + p,
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p,
+  h6 + p {
+    page-break-before: avoid;
+  }
+
+  img {
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: avoid;
+  }
+
+  /* stylelint-disable declaration-no-important */
+
+  pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word;
+  }
+
   /* stylelint-enable */
 
   /* End Gutenberg code */
@@ -835,6 +948,10 @@ a:focus, [tabindex="0"]:focus {
   a.no-print-href::after,
   a.href-no-print::after {
     content: "";
+  }
+
+  thead {
+    display: table-header-group;
   }
 
   /* End HTML5 Boilerplate code */
