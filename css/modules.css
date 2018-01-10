@@ -128,13 +128,6 @@ svg.img-flex {
   text-decoration: none;
 }
 
-[hidden], .hidden {
-  /* stylelint-disable declaration-no-important */
-  display: none !important;
-  visibility: hidden !important;
-  /* stylelint-enable */
-}
-
 .scrollable {
   max-width: 100%;
   overflow-x: auto;
@@ -172,42 +165,6 @@ svg.img-flex {
   margin-left: 0 !important;
   margin-right: 0 !important;
   /* stylelint-enable */
-}
-
-.center-content,
-.center-content-vertical,
-.center-contents,
-.center-contents-vertical {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-direction: column wrap;
-  -ms-flex-direction: column wrap;
-  flex-flow: column wrap;
-}
-
-.center-content-start,
-.center-content-vertical-start,
-.center-contents-start,
-.center-contents-vertical-start {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex-direction: column wrap;
-  -ms-flex-direction: column wrap;
-  flex-flow: column wrap;
 }
 
 .center-content-horizontal,
@@ -286,38 +243,6 @@ svg.img-flex {
   z-index: 1000;
 }
 
-.pin-top-left,
-.pin-left-top,
-.pin-tl,
-.pin-lt {
-  top: 0;
-  left: 0;
-}
-
-.pin-top-right,
-.pin-right-top,
-.pin-tr,
-.pin-rt {
-  top: 0;
-  right: 0;
-}
-
-.pin-bottom-left,
-.pin-left-bottom,
-.pin-bl,
-.pin-lb {
-  bottom: 0;
-  left: 0;
-}
-
-.pin-bottom-right,
-.pin-right-bottom,
-.pin-br,
-.pin-rb {
-  bottom: 0;
-  right: 0;
-}
-
 .pin-top-center,
 .pin-center-top,
 .pin-tc,
@@ -364,20 +289,8 @@ svg.img-flex {
   width: 25%;
 }
 
-.width-half, .w-1-2 {
-  width: 50%;
-}
-
 .width-full, .w-1 {
   width: 100%;
-}
-
-.height-quarter, .h-1-4 {
-  height: 25%;
-}
-
-.height-half, .h-1-2 {
-  height: 50%;
 }
 
 .height-full, .h-1 {
@@ -445,21 +358,6 @@ button[disabled] {
   cursor: default;
 }
 
-.btn-light, .btn--light {
-  background-color: #e2e2e2;
-  border-color: #e2e2e2;
-  color: #000;
-}
-
-.btn-light:focus,
-.btn-light:hover,
-.btn--light:focus,
-.btn--light:hover {
-  background-color: #666;
-  border-color: #666;
-  color: #fff;
-}
-
 .btn-ghost,
 .btn--ghost {
   background-color: transparent;
@@ -474,21 +372,6 @@ button[disabled] {
   background-color: #e2e2e2;
   border-color: #000;
   color: #000;
-}
-
-.btn-link {
-  display: inline;
-  padding: 0;
-  background-color: transparent;
-  border-radius: 0;
-  border: 0;
-  color: inherit;
-}
-
-.btn-link:focus,
-.btn-link:hover {
-  background-color: transparent;
-  color: inherit;
 }
 
 a:hover, a:active {
@@ -603,20 +486,6 @@ a:focus, [tabindex="0"]:focus {
    * (c) Fabien Sa || MIT License
    *     http://bafs.github.io/Gutenberg/
    */
-
-  table,
-  blockquote,
-  pre,
-  code,
-  figure,
-  li,
-  hr,
-  ul,
-  ol,
-  a,
-  tr {
-    page-break-inside: avoid;
-  }
 
   h1, h2, h3, h4, h5, h6, p, a {
     orphans: 3;
