@@ -13,10 +13,6 @@ html {
   margin: auto;
 }
 
-h1 {
-  font-weight: 300;
-}
-
 .img-flex {
   display: block;
   width: 100%;
@@ -163,6 +159,10 @@ textarea {
 
 .title-discription {
   font-weight: 300;
+}
+
+.title {
+  font-weight: 700;
 }
 
 .prototype {
