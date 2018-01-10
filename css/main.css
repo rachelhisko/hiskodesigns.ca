@@ -8,6 +8,10 @@ html {
   max-width: 60em;
 }
 
+.main {
+  font-weight: 400
+}
+
 .content {
   max-width: 40em;
   margin: auto;
