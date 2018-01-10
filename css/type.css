@@ -13,35 +13,6 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 1px;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -.5em;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-size: 100%;
-}
-
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
-}
-
 b,
 strong {
   font-weight: bold;
@@ -69,19 +40,6 @@ caption {
   text-align: left;
 }
 
-th,
-td {
-  border-bottom: 1px solid #000;
-  text-align: left;
-  vertical-align: top;
-}
-
-thead th {
-  vertical-align: bottom;
-
-  border-bottom-width: 2px;
-}
-
 .text-left {
   text-align: left;
 }
@@ -94,25 +52,8 @@ thead th {
   text-align: center;
 }
 
-.normal {
-  font-weight: normal;
-  font-style: normal;
-}
-
-.not-bold {
-  font-weight: normal;
-}
-
-.not-italic {
-  font-style: normal;
-}
-
 .bold {
   font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .text-upper {
@@ -130,11 +71,6 @@ thead th {
   width: 100%;
 }
 
-.wrapper-no-center {
-  max-width: 52em;
-  width: 100%;
-}
-
 .max-length {
   margin-left: auto;
   margin-right: auto;
@@ -147,33 +83,6 @@ thead th {
   width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-dl,
-dd,
-figure,
-blockquote,
-details,
-hr,
-fieldset,
-pre,
-table,
-caption {
-  margin: 0 0 1.3rem;
-}
-
-.tenamega {
-  font-size: 2.0408rem;
-  line-height: 2.925rem;
-}
-
 .tenakilo {
   font-size: 1.9127rem;
   line-height: 2.6rem;
@@ -182,21 +91,6 @@ caption {
 .tena {
   font-size: 1.7926rem;
   line-height: 2.6rem;
-}
-
-.nina {
-  font-size: 1.68rem;
-  line-height: 2.275rem;
-}
-
-.yotta {
-  font-size: 1.5745rem;
-  line-height: 2.275rem;
-}
-
-.zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
 }
 
 h1,
@@ -252,10 +146,6 @@ ul {
   padding-left: 1em;
 }
 
-ol {
-  padding-left: 1.6em;
-}
-
 input,
 option,
 select {
@@ -264,12 +154,6 @@ select {
 
 [type="color"] {
   width: calc(1.3rem + .1625rem + .1625rem);
-}
-
-[type="checkbox"],
-[type="radio"] {
-  display: inline-block;
-  height: auto;
 }
 
 .push {
@@ -371,35 +255,6 @@ select {
   padding-bottom: .1625rem;
 }
 
-.island {
-  padding: 1.3rem;
-}
-
-.island-double,
-.island-2 {
-  padding: 2.6rem;
-}
-
-.island-half,
-.island-1-2 {
-  padding: .65rem;
-}
-
-.island-quarter,
-.island-1-4,
-td,
-table th {
-  padding: .325rem;
-}
-
-.island-eighth,
-.island-1-8,
-input:not([type="checkbox"]),
-input:not([type="radio"]),
-textarea {
-  padding: .1625rem;
-}
-
 .gutter {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -434,49 +289,11 @@ select {
   padding: 0 .1625rem;
 }
 
-fieldset {
-  padding: .325rem 0;
-
-  border: 0;
-  border-top: 2px solid #000;
-}
-
-legend {
-  padding-right: .325rem;
-}
-
 @media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.4rem;
-  }
-
-  .tenamega {
-    font-size: 3.6532rem;
-    line-height: 4.9rem;
   }
 
   .tenakilo {
@@ -487,21 +304,6 @@ legend {
   .tena {
     font-size: 2.8865rem;
     line-height: 3.85rem;
-  }
-
-  .nina {
-    font-size: 2.5658rem;
-    line-height: 3.5rem;
-  }
-
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3.15rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 2.8rem;
   }
 
   h1,
@@ -566,35 +368,6 @@ legend {
   ol ol,
   ul ol {
     padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.35rem;
-    margin-right: -.35rem;
-    width: calc(100% + .35rem + .35rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.4rem + .175rem + .175rem);
-  }
-
-  [type="color"] {
-    width: calc(1.4rem + .175rem + .175rem);
-  }
-
-  [type="checkbox"],
-  [type="radio"] {
-    display: inline-block;
-    height: auto;
   }
 
   .push {
@@ -696,35 +469,6 @@ legend {
     padding-bottom: .175rem;
   }
 
-  .island {
-    padding: 1.4rem;
-  }
-
-  .island-double,
-  .island-2 {
-    padding: 2.8rem;
-  }
-
-  .island-half,
-  .island-1-2 {
-    padding: .7rem;
-  }
-
-  .island-quarter,
-  .island-1-4,
-  td,
-  table th {
-    padding: .35rem;
-  }
-
-  .island-eighth,
-  .island-1-8,
-  input:not([type="checkbox"]),
-  input:not([type="radio"]),
-  textarea {
-    padding: .175rem;
-  }
-
   .gutter {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
@@ -759,17 +503,6 @@ legend {
     padding: 0 .175rem;
   }
 
-  fieldset {
-    padding: .35rem 0;
-
-    border: 0;
-    border-top: 2px solid #000;
-  }
-
-  legend {
-    padding-right: .35rem;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -777,33 +510,6 @@ legend {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.5rem;
-  }
-
-  .tenamega {
-    font-size: 3.6532rem;
-    line-height: 4.875rem;
   }
 
   .tenakilo {
@@ -814,21 +520,6 @@ legend {
   .tena {
     font-size: 2.8865rem;
     line-height: 4.125rem;
-  }
-
-  .nina {
-    font-size: 2.5658rem;
-    line-height: 3.375rem;
-  }
-
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 3rem;
   }
 
   h1,
@@ -901,29 +592,7 @@ legend {
     text-align: right;
     width: 1.3em;
   }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  [type="color"] {
-    width: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  [type="checkbox"],
-  [type="radio"] {
-    display: inline-block;
-    height: auto;
-  }
-
+  
   .push {
     margin-bottom: 1.5rem;
   }
