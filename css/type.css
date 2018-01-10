@@ -592,7 +592,7 @@ select {
     text-align: right;
     width: 1.3em;
   }
-  
+
   .push {
     margin-bottom: 1.5rem;
   }
@@ -891,35 +891,6 @@ select {
     padding-left: 1.6em;
   }
 
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  [type="color"] {
-    width: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  [type="checkbox"],
-  [type="radio"] {
-    display: inline-block;
-    height: auto;
-  }
-
   .push {
     margin-bottom: 1.5rem;
   }
@@ -1023,31 +994,6 @@ select {
     padding: 1.5rem;
   }
 
-  .island-double,
-  .island-2 {
-    padding: 3rem;
-  }
-
-  .island-half,
-  .island-1-2 {
-    padding: .75rem;
-  }
-
-  .island-quarter,
-  .island-1-4,
-  td,
-  table th {
-    padding: .375rem;
-  }
-
-  .island-eighth,
-  .island-1-8,
-  input:not([type="checkbox"]),
-  input:not([type="radio"]),
-  textarea {
-    padding: .1875rem;
-  }
-
   .gutter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1076,21 +1022,6 @@ select {
   .gutter-1-8 {
     padding-left: .1875rem;
     padding-right: .1875rem;
-  }
-
-  select {
-    padding: 0 .1875rem;
-  }
-
-  fieldset {
-    padding: .375rem 0;
-
-    border: 0;
-    border-top: 2px solid #000;
-  }
-
-  legend {
-    padding-right: .375rem;
   }
 
 }
